@@ -14,23 +14,23 @@ const footerImage = {
 }
 
 const footerImgRedes = {
-  maxWidth: '20px', 
+  maxWidth: '20px',
   marginRight: '10px'
 }
 
 const Footer = () => {
   return (
     <footer>
-        <p>Powered by</p>
-        {/* <img src="public/images/DH.png" alt='DH-logo' /> */}
-        <img src={footerImg} alt='DH-logo' style={footerImage}/>
+      <p>Powered by</p>
+      {/* <img src="public/images/DH.png" alt='DH-logo' /> */}
+      <img src={footerImg} alt='DH-logo' style={footerImage} />
 
-        <div>
-          <img className="social-media" src={facebookImg} alt="Facebook-logo" style={footerImgRedes} />
-          <img className="social-media" src={instagramImg} alt="Instagram-logo" style={footerImgRedes} />
-          <img className="social-media" src={tiktokImg} alt="TikTok-logo" style={footerImgRedes} />
-          <img className="social-media" src={wspImg} alt="Whatsapp-logo" style={footerImgRedes} />  
-        </div>
+      <div>
+        <img className="social-media" src={facebookImg} alt="Facebook-logo" style={footerImgRedes} />
+        <img className="social-media" src={instagramImg} alt="Instagram-logo" style={footerImgRedes} />
+        <img className="social-media" src={tiktokImg} alt="TikTok-logo" style={footerImgRedes} />
+        <img className="social-media" src={wspImg} alt="Whatsapp-logo" style={footerImgRedes} />
+      </div>
     </footer>
   )
 }
